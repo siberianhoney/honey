@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff3e0; /* Мягкий оранжевый фон */
+    color: #333;
+}
+
+header {
+    background-color: #ff9800; /* Яркий оранжевый заголовок */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ff9800;
+    border-bottom: 2px solid #ff9800;
+    padding-bottom: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #ff9800;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Чтобы фотографии переносились на новую строку, если не помещаются */
+}
+
+.gallery img {
+    width: 300px; /* Ширина фотографий */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Небольшая тень для объема */
+}
+
+footer {
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+details {
+    margin-bottom: 10px;
+    border: 1px solid #ff9800;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ff9800;
+}
+
+details p {
+    margin-top: 10px;
+}
